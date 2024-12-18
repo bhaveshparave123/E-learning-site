@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>learning</title>
+    <link rel="icon" type="igame/x-icon" href="./home_images/E fevicon.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media-queries.css">
+    <!-- font cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+      
+    <script src="./javascript/script.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <!-- <div class="container"> -->
+    <nav class="navigation navigation-p">
+      <div class="left-logo left-logo-p">
+        <img
+          class="logo logo-p"
+          src="./home_images/demo-elearning-logo-black@2x.webp"/>
+      </div>
+
+      <div id="menulist" class="mid-menu mid-menu-p active">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li ><a href="#"  class="show11"  onmouseover="show()" >Courses</a></li>
+          <li><a href="#">Instructor</a></li>
+          <li><a href="#">Testimonial</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div id="show" class="courses-show"   >
+        <div class="cross" onclick="wanish()"><i class="fa-solid fa-xmark"></i></div>
+        <a href="#"> <div class="show1">
+          <div class="courses-i"><i class="fa-solid fa-laptop"></i> </div>
+         <div>
+          <h3>Devlopment </h3>
+          <p>Devlop professional skill</p>
+         </div>
+        </div></a>
+        <hr>
+        <a href="#"><div class="show1">
+          <div class="courses-i"><i class="fa-solid fa-briefcase"></i> </div>
+         <div>
+          <h3>Business</h3>
+          <p>Advance your business</p>
+         </div>
+        </div></a>
+        <hr>
+          <a href="#"> <div class="show1">
+          <div class="courses-i"><i class="fa-solid fa-pen-nib"></i> </div>
+         <div>
+          <h3>Design </h3>
+          <p>Design skill & concepts</p>
+         </div>
+        </div></a>
+
+        <hr>
+        <a href="#"> <div class="show1">
+          <div class="courses-i"><i class="fa-solid fa-bullhorn"></i> </div>
+         <div>
+          <h3>Marketing</h3>
+          <p>New age marketing skill</p>
+         </div>
+        </div></a>
+
+      </div>
+
+      <div class="right-contact right-contact-p">
+        <figure><i class="fa-solid fa-phone fa-solid fa-phone-p"></i></figure>
+        <li>1800 222 000</li>
+      </div>
+      <img onclick="togglemenu()" class="nav-bar-img nav-bar-img-p" src="./home_images/icons8-bars-32.png">
+    </nav>
+    <!-- </div> -->
+
+    <!-- scroller -->
+    <div class="scroller ">
+      <div class="container ">
+        <div class="scrolleer-page">
+          <div class="scroller-one">
+            <span class="scroller-text-1"
+              >Best online platform for education.</span
+            ><br />
+            <span class="scroller-text-2"
+              >Online courses from the world's leading <br />
+              experts. Join 17 million learners today.</span
+            ><br /><br />
+            <div class="scroller-button">
+              <button>
+                <i class="fa-regular fa-thumbs-up"></i>Get started
+              </button>
+              <spna class="youtubei"
+                ><i class="fa-brands fa-youtube"></i> How it works</spna
+              >
+            </div>
+            <div class="scroller-score">
+              <div class="score-one">
+                <span><li>260+</li></span>
+                <div class="score-line"></div>
+                <span class="scroller-text-2">Tutors</span>
+              </div>
+              <div class="score-one">
+                <span><li>5340+</li></span>
+                <div class="score-line"></div>
+                <span class="scroller-text-2">Students</span>
+              </div>
+              <div class="score-one">
+                <span><li>000+</li></span>
+                <div class="score-line"></div>
+                <span class="scroller-text-2">Courses</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="scroller-two">
+            <img src="./home_images/demo-elearning-hero-banner-01.webp" />
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- section two -->
+    <div id="click" class="down-section">
+      <a href="#click">
+        <div class="mouse-icone"><i class="fa-solid fa-computer-mouse"></i></div
+      ></a>
+
+      <div class="container">
+        <div class="down-page">
+          <div class="down-contant-1">
+
+            <div class="down-container-one">
+              <div class="one-icon"><i class="fa-solid fa-award"></i></div>
+              <div class="one-text">Guaranteed and certified</div>
+            </div>
+
+            <h2>Online learning Wherever and Whenever.</h2>
+            <a href="#"
+              >
+              <button>
+                Learn more <i class="fa-solid fa-arrow-right"></i></button
+            ></a>
+
+            <div class="experts-img">
+              <img src="./home_images/demo-elearning-03.webp" />
+              <span>Online courses from <a href="#">experts.</a></span>
+            </div>
+          </div>
+
+          <div class="down-content-2">
+
+            <div class="feature-box">
+              <h2 class="feature-num">01</h2>
+              <span>Flexible schedule</span>
+              <p>
+                eLearning allows learners to quickly and more easily complete
+                their training.
+              </p>
+              <div class="down-line"></div>
+            </div>
+
+            <div class="feature-box" id="feature-box-2">
+              <h2 class="feature-num">02</h2>
+              <span>Pocket friendly</span>
+              <p>
+                eLearning allows learners to quickly and more easily complete
+                their training.
+              </p>
+              <div class="down-line"></div>
+            </div>
+
+            <div class="feature-box">
+              <h2 class="feature-num">03</h2>
+              <span>Expert Instructor</span>
+              <p>
+                eLearning allows learners to quickly and more easily complete
+                their training.
+              </p>
+              <div class="down-line"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- section three -->
+    <div class="section-three">
+      <div class="container">
+
+        <div class="popular-page">
+
+          <div class="popular-one">
+            <h2>Popular Courses</h2>
+          </div>
+
+          <div class="popular-two">
+            <ul>
+              <li><a>All</a></li>
+              <li><a>Development</a></li>
+              <li><a>Business</a></li>
+              <li><a>Desing</a></li>
+              <li><a>Marketing</a></li>
+            </ul>
+          </div>
+          
+        </div>
+
+        <div class="popular-contain">
+          <!-- 1 -->
+          <div class="popular-courses-box">
+            <div class="service-box">
+              <img src="./home_images/demo-elearning-courses-01.jpg" />
+
+              <div class="popular-text-box">
+                <span>
+                  <a>DESIGN</a>
+                  <li>Matthew taylor</li>
+                </span>
+
+                <h3>Business accounting and taxation fundamental</h3>
+
+                <div class="popular-rating-box">
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="review">(20 Reviews)</div>
+                </div>
+              </div>
+
+              <div class="lessons-students">
+                <div class="lesson">
+                  <i class="fa-regular fa-clipboard"></i><span>10 Lessons</span>
+                </div>
+                <div class="student">
+                  <i class="fa-regular fa-user"></i><span>18 Students</span>
+                </div>
+              </div>
+            </div>
+          </div>
+<!-- 2 -->
+          <div class="popular-courses-box">
+            <div class="service-box">
+              <img src="./home_images/demo-elearning-courses-02.jpg" />
+              <div class="popular-text-box">
+                <span>
+                  <a>FINANCE</a>
+                  <li>Leonal Mooney</li>
+                </span>
+
+                <h3>Business accounting and taxation fundamental</h3>
+
+                <div class="popular-rating-box">
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="review">(39 Reviews)</div>
+                </div>
+              </div>
+
+              <div class="lessons-students">
+                <div class="lesson">
+                  <i class="fa-regular fa-clipboard"></i><span>22 Lessons</span>
+                </div>
+                <div class="student">
+                  <i class="fa-regular fa-user"></i><span>30 Students</span>
+                </div>
+              </div>
+            </div>
+          </div>
+<!-- 3 -->
+          <div class="popular-courses-box">
+            <div class="service-box">
+              <img src="./home_images/demo-elearning-courses-03.jpg" />
+
+              <div class="popular-text-box">
+                <span>
+                  <a>DESIGN</a>
+                  <li>Herman miller</li>
+                </span>
+
+                <h3>Business accounting and taxation fundamental</h3>
+
+                <div class="popular-rating-box">
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="review">(55 Reviews)</div>
+                </div>
+              </div>
+
+              <div class="lessons-students">
+                <div class="lesson">
+                  <i class="fa-regular fa-clipboard"></i><span>15 Lessons</span>
+                </div>
+                <div class="student">
+                  <i class="fa-regular fa-user"></i><span>55 Students</span>
+                </div>
+              </div>
+            </div>
+          </div>
+<!-- 4 -->
+          <div class="popular-courses-box">
+            <div class="service-box">
+              <img src="./home_images/demo-elearning-courses-04.jpg" />
+
+              <div class="popular-text-box">
+                <span>
+                  <a>MEDICINE</a>
+                  <li>Shoko mugikura</li>
+                </span>
+
+                <h3>Business accounting and taxation fundamental</h3>
+
+                <div class="popular-rating-box">
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="review">(42 Reviews)</div>
+                </div>
+              </div>
+
+              <div class="lessons-students">
+                <div class="lesson">
+                  <i class="fa-regular fa-clipboard"></i><span>10 Lessons</span>
+                </div>
+                <div class="student">
+                  <i class="fa-regular fa-user"></i><span>34 Students</span>
+                </div>
+              </div>
+            </div>
+          </div>
+<!-- 5 -->
+          <div class="popular-courses-box">
+            <div class="service-box">
+              <img src="./home_images/demo-elearning-courses-05.jpg" />
+
+              <div class="popular-text-box">
+                <span>
+                  <a>DESIGN</a>
+                  <li>Alexa harvard</li>
+                </span>
+
+                <h3>Business accounting and taxation fundamental</h3>
+
+                <div class="popular-rating-box">
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="review">(56 Reviews)</div>
+                </div>
+              </div>
+
+              <div class="lessons-students">
+                <div class="lesson">
+                  <i class="fa-regular fa-clipboard"></i><span>20 Lessons</span>
+                </div>
+                <div class="student">
+                  <i class="fa-regular fa-user"></i><span>59 Students</span>
+                </div>
+              </div>
+            </div>
+          </div>
+<!-- 6 -->
+          <div class="popular-courses-box">
+            <div class="service-box">
+              <img src="./home_images/demo-elearning-courses-06.jpg" />
+
+              <div class="popular-text-box">
+                <span>
+                  <a>Business</a>
+                  <li>Leonel mooney </li>
+                </span>
+
+                <h3>Business accounting and taxation fundamental</h3>
+
+                <div class="popular-rating-box">
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="review">(76 Reviews)</div>
+                </div>
+              </div>
+
+              <div class="lessons-students">
+                <div class="lesson">
+                  <i class="fa-regular fa-clipboard"></i><span>18 Lessons</span>
+                </div>
+                <div class="student">
+                  <i class="fa-regular fa-user"></i><span>80 Students</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popular-end">
+        <span>We help you find the perfect tutor. It's completely free. </span>
+        <a> Explore all courses<i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+
+    <!-- section four learning experience-->
+
+    <div class="learning-experience">
+      <div class="container">
+        <div class="eperience-page">
+          <div class="experience-img">
+            <img src="./home_images/demo-elearning-05.webp" />
+          </div>
+
+          <div class="experience-text">
+            
+            <div class="experience-one-t">
+              <div class="experience-icon">
+                <i class="fa-solid fa-briefcase"></i>
+              </div>
+              <span class="experience-icon-text"
+                >Premium learning experience</span
+              >
+            </div>
+
+            <h2>Providing amazing online courses.</h2>
+
+            <div class="experience-text-one">
+              <div class="experience-children">
+                Master the skills that matter to you
+              </div>
+              <p>
+                Web-based training you can consume at your own pace. Courses are
+                interactive.
+              </p>
+            </div>
+
+            <div class="experience-skill">Connect with effective methods</div>
+            <div class="experience-skill-2">Increase your learning skills</div>
+
+            <div class="experiance-btn">
+            <a class="experience-button" href="#">
+              <span 
+                >Explore courses<i class="fa-solid fa-arrow-right"></i
+              ></span>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="marquee">
+        <marquee
+          >providing amazing online outstanding online learning courses bringing
+          you</marquee
+        >
+        <div class="marquee-h4">
+          <h4>Online learning wherever and whenever.</h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- section five -->
+
+    <div class="Testimonial">
+      <div class="container">
+        <div class="testimonial-page">
+          <div class="testimonial-text-one">
+            <div class="testi-box-1">
+              <div class="quate-icone">
+                <i class="fa-solid fa-quote-left"></i>
+              </div>
+              <apan>Students feedback</apan>
+            </div>
+
+            <h2>Trusted by genius people.</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis
+              dictum nec.
+            </p>
+
+            <div class="testi-two-in-one">
+              <div class="testi-percentage"><h3>99%</h3></div>
+              <span>Student's complete course successfully.</span>
+            </div>
+          </div>
+
+          <div class="testimonial-slide"></div>
+        </div>
+
+        <div class="testimonial-logo">
+          <div class="logo-1">
+            <a href="#"
+              ><img src="./home_images/logo-walmart-white.svg" height="40"
+            /></a>
+          </div>
+          <div class="logo-1">
+            <a href="#"
+              ><img src="./home_images/logo-logitech-white.svg" height="40"
+            /></a>
+          </div>
+          <div class="logo-1">
+            <a href="#"
+              ><img src="./home_images/logo-yahoo-white.svg" height="40"
+            /></a>
+          </div>
+          <div class="logo-1">
+            <a href="#"
+              ><img src="./home_images/logo-invision-white.svg " height="40"
+            /></a>
+          </div>
+          <div class="logo-1">
+            <a href="#"
+              ><img src="./home_images/logo-monday-white.svg" height="40"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="style-line"></div>
+
+    <!-- section six article -->
+    <div class="articles">
+      <div class="container">
+        <div class="article-heading">
+          <div class="heading-one"><h2>Latest articles</h2></div>
+          <div class="explore-two">
+            <span>Explore all articles </span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+
+        <div class="article-client-page">
+          <div class="article-box">
+            <div class="article-box-inner">
+              <div class="upper-article">
+                <a href="#"><img src="./home_images/avtar-03.jpg" /></a>
+                <span>By <a href="#">Andy glamer</a></span>
+                <div class="likes">
+                  <a href="#"><i class="fa-regular fa-heart"></i><span>65</span></a>
+                </div>
+              </div>
+
+              <a href="#"><img src="./home_images/demo-elearning-07.jpg" /></a>
+              <div class="lower-box">
+                <a href="#">How to evaluate the effective of training programs.</a>
+                <p>Lorem ipsum has been industry standard dummy text ever...</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="article-box">
+            <div class="article-box-inner">
+              <div class="upper-article">
+                <a href="#"><img src="./home_images/avtar-04.jpg" /></a>
+                <span>By <a href="#">Andy glamer</a></span>
+                <div class="likes">
+                  <a href="#"><i class="fa-regular fa-heart"></i><span>65</span></a>
+                </div>
+              </div>
+              <a href="#"><img src="./home_images/demo-elearning-08.jpg" /></a>
+              <div class="lower-box">
+                <a href="#">How to evaluate the effective of training programs.</a>
+                <p>Lorem ipsum has been industry standard dummy text ever...</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="article-box">
+            <div class="article-box-inner">
+              <div class="upper-article">
+                <a href="#"><img src="./home_images/avtar-05.jpg" /></a>
+                <span>By <a href="#">Andy glamer</a></span>
+                <div class="likes">
+                  <a href="#"><i class="fa-regular fa-heart"></i><span>65</span></a>
+                </div>
+              </div>
+              <a href="#"><img src="./home_images/demo-elearning-09.jpg" /></a>
+              <div class="lower-box">
+                <a href="#">How to evaluate the effective of training programs.</a>
+                <p>Lorem ipsum has been industry standard dummy text ever...</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="article-contact">
+          <div class="outer-contact">
+            <div class="inner-contact">
+              <i class="fa-regular fa-envelope"></i>
+              <span>Looking for help? <a href="#"> Contact us today</a></span>
+            </div>
+          </div>
+
+          <div class="outer-contact">
+            <div class="inner-contact">
+              <i class="fa-regular fa-thumbs-up"></i>
+              <span>Keep in Touch. <a href="#">Like us on Facebook</a></span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer">
+      <div class="container">
+
+        <div class="admission-box">
+
+          <div class="admission-text">
+            <h6>Admission is open for the next year batch</h6>
+          </div>
+
+          <div class="dmission-buttona">
+            <a class="ad-btn-1" href="#"><span>
+              <span class="ad-text">Get started now</span>
+              <span class="ad-icon"><i class="fa-regular fa-thumbs-up"></i></span>
+            </span></a>
+
+            <span >
+              <a class="ad-number" href="#"><i class="fa-solid fa-phone"></i>+1800 683 0000</a>
+            </span>
+          </div>
+
+        </div>
+
+        <div class="footer-page">
+
+          <div class="footer-box" id="footer-1">
+            <a href="#"><img src="./home_images/demo-elearning-footer-logo@2x.webp" width="157px"></a>
+            <p>We are providing high-quality courses for about ten years.</p>
+            <div class="footer-social-link">
+              <ul>
+                <li>
+                  <a href="#">Fb.</a>
+                </li>
+                <li>
+                  <a href="#">Ig.</a>
+                </li>
+                <li>
+                  <a href="#">Tw.</a>
+                </li>
+                <li>
+                  <a href="#">ln.</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-box" id="footer-2">
+            <span class="span-2">Popular courses</span>
+            <ul>
+              <li><a>Business finance</a></li>
+              <li><a>Advanced design</a></li>
+              <li><a>Web development</a></li>
+              <li><a>Data visualization</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-box" id="footer-3">
+              <span class="span-p">Need help?</span>
+              <span class="span-p span-p2">Call us directly?</span>
+              <div class="box-free-3 span-p">
+                <a>+1 234 567 8910 </a>
+                <span > FREE</span>
+              </div>
+              <span class="span-p span-p2">Need support?</span>
+              <a href="#">help@domain.com</a>
+          </div>
+
+          <div class="footer-box" id="footer-4">
+            <span>Subscribe our newsletter</span>
+            <div class="footer-form" id="display" onclick="button()">
+              <form>
+                <input type="email" placeholder="Enter your Email..." >
+                <button >submit
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+              </form>
+            </div>
+            <div>
+              <div class="handshake-i">
+                <i class="fa-regular fa-handshake"></i>
+                Protecting your privacy
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="footer-last">
+          <div class="last-one">
+            <ul>
+              <li><a href="#"></a>Home</li>
+              <li><a href="#"></a>About</li>
+              <li><a href="#"></a>Cources</li>
+              <li><a href="#"></a>Instructor</li>
+              <li><a href="#"></a>Testimonial</li>
+              <li><a href="#"></a>Blog</li>
+              <li><a href="#"></a>Contact</li>
+            </ul>
+          </div>
+
+          <div class="last-two">
+            <p class="last-para-f">© 2024 Crafto is Proudly Powered by </p><a class="last-two-a" href="#">Bhavesh</a>
+          </div>
+
+        </div>
+
+      </div>
+     
+      </div>
+
+  
+
+
+<!-- script -->
+
+<script>
+
+
+  // const togglebutton = document.getElementById('togglemenu');
+  // const navlist = document.getElementById('menulist');
+
+  // togglebutton.addEventListener('click', () => {
+  //   navlist.classlist.toggle('active');
+  // })
+
+</script>
+
+  </body>
+</html>
